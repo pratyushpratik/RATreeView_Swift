@@ -7,6 +7,15 @@
 //
 
 import UIKit
+import RATreeView
+import Foundation
+
+enum Level {
+
+    case Level1
+    case Level2
+    case Level3
+}
 
 class ViewController: UIViewController, RATreeViewDataSource, RATreeViewDelegate{
     private var treeView: RATreeView!
@@ -25,6 +34,13 @@ class ViewController: UIViewController, RATreeViewDataSource, RATreeViewDelegate
     }
     
     func treeView(_ treeView: RATreeView, numberOfChildrenOfItem item: Any?) -> Int {
+        
+//        switch item {
+//        case :
+//            <#code#>
+//        default:
+//            <#code#>
+//        }
         return 3
     }
     
@@ -37,5 +53,13 @@ class ViewController: UIViewController, RATreeViewDataSource, RATreeViewDelegate
     
     func treeView(_ treeView: RATreeView, child index: Int, ofItem item: Any?) -> Any {
         return index
+    }
+    
+    func treeView(_ treeView: RATreeView, indentationLevelForRowForItem item: Any) -> Int {
+       return 2
+    }
+    
+    func treeView(_ treeView: RATreeView, heightForRowForItem item: Any) -> CGFloat {
+        return 80
     }
 }
