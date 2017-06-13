@@ -1,0 +1,6 @@
+framework module Pods_ExpandableTreeView {
+  umbrella header "Pods-ExpandableTreeView-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -14,6 +14,9 @@
 		81D1B6081EF06DC60062D6AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81D1B6061EF06DC60062D6AE /* LaunchScreen.storyboard */; };
 		81D1B6131EF06DC70062D6AE /* ExpandableTreeViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D1B6121EF06DC70062D6AE /* ExpandableTreeViewTests.swift */; };
 		81D1B61E1EF06DC70062D6AE /* ExpandableTreeViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D1B61D1EF06DC70062D6AE /* ExpandableTreeViewUITests.swift */; };
+		81D1B62D1EF06E360062D6AE /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D1B62B1EF06E360062D6AE /* TableViewCell.swift */; };
+		81D1B62E1EF06E360062D6AE /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81D1B62C1EF06E360062D6AE /* TableViewCell.xib */; };
+		9142DC695328283EA158454E /* Pods_ExpandableTreeView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D924F83046D8CA0286F22F60 /* Pods_ExpandableTreeView.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4DEA0A5F1413890D0E0E4DDA /* Pods-ExpandableTreeView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExpandableTreeView.release.xcconfig"; path = "Pods/Target Support Files/Pods-ExpandableTreeView/Pods-ExpandableTreeView.release.xcconfig"; sourceTree = "<group>"; };
+		5EECAC37D0B82D7ABB65180B /* Pods-ExpandableTreeView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExpandableTreeView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ExpandableTreeView/Pods-ExpandableTreeView.debug.xcconfig"; sourceTree = "<group>"; };
 		81D1B5FA1EF06DC60062D6AE /* ExpandableTreeView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExpandableTreeView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81D1B5FD1EF06DC60062D6AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		81D1B5FF1EF06DC60062D6AE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +52,10 @@
 		81D1B6191EF06DC70062D6AE /* ExpandableTreeViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExpandableTreeViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		81D1B61D1EF06DC70062D6AE /* ExpandableTreeViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandableTreeViewUITests.swift; sourceTree = "<group>"; };
 		81D1B61F1EF06DC70062D6AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81D1B62B1EF06E360062D6AE /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		81D1B62C1EF06E360062D6AE /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		81D1B62F1EF06E9C0062D6AE /* Bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bridge.h; sourceTree = "<group>"; };
+		D924F83046D8CA0286F22F60 /* Pods_ExpandableTreeView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExpandableTreeView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9142DC695328283EA158454E /* Pods_ExpandableTreeView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +84,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		747FA7851A5654C2F5445266 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D924F83046D8CA0286F22F60 /* Pods_ExpandableTreeView.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		81D1B5F11EF06DC60062D6AE = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +99,8 @@
 				81D1B6111EF06DC70062D6AE /* ExpandableTreeViewTests */,
 				81D1B61C1EF06DC70062D6AE /* ExpandableTreeViewUITests */,
 				81D1B5FB1EF06DC60062D6AE /* Products */,
+				C351644DC1D3E7C645429E1C /* Pods */,
+				747FA7851A5654C2F5445266 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +123,9 @@
 				81D1B6041EF06DC60062D6AE /* Assets.xcassets */,
 				81D1B6061EF06DC60062D6AE /* LaunchScreen.storyboard */,
 				81D1B6091EF06DC60062D6AE /* Info.plist */,
+				81D1B62B1EF06E360062D6AE /* TableViewCell.swift */,
+				81D1B62C1EF06E360062D6AE /* TableViewCell.xib */,
+				81D1B62F1EF06E9C0062D6AE /* Bridge.h */,
 			);
 			path = ExpandableTreeView;
 			sourceTree = "<group>";
@@ -125,6 +148,15 @@
 			path = ExpandableTreeViewUITests;
 			sourceTree = "<group>";
 		};
+		C351644DC1D3E7C645429E1C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5EECAC37D0B82D7ABB65180B /* Pods-ExpandableTreeView.debug.xcconfig */,
+				4DEA0A5F1413890D0E0E4DDA /* Pods-ExpandableTreeView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +164,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 81D1B6221EF06DC70062D6AE /* Build configuration list for PBXNativeTarget "ExpandableTreeView" */;
 			buildPhases = (
+				5537AE9E13F99B3427C0D649 /* [CP] Check Pods Manifest.lock */,
 				81D1B5F61EF06DC60062D6AE /* Sources */,
 				81D1B5F71EF06DC60062D6AE /* Frameworks */,
 				81D1B5F81EF06DC60062D6AE /* Resources */,
+				949187653BD971CD61C4E7D7 /* [CP] Embed Pods Frameworks */,
+				FB959AA588F899BC99516E07 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -236,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				81D1B6081EF06DC60062D6AE /* LaunchScreen.storyboard in Resources */,
+				81D1B62E1EF06E360062D6AE /* TableViewCell.xib in Resources */,
 				81D1B6051EF06DC60062D6AE /* Assets.xcassets in Resources */,
 				81D1B6031EF06DC60062D6AE /* Main.storyboard in Resources */,
 			);
@@ -257,11 +293,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5537AE9E13F99B3427C0D649 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		949187653BD971CD61C4E7D7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ExpandableTreeView/Pods-ExpandableTreeView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB959AA588F899BC99516E07 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ExpandableTreeView/Pods-ExpandableTreeView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		81D1B5F61EF06DC60062D6AE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81D1B62D1EF06E360062D6AE /* TableViewCell.swift in Sources */,
 				81D1B6001EF06DC60062D6AE /* ViewController.swift in Sources */,
 				81D1B5FE1EF06DC60062D6AE /* AppDelegate.swift in Sources */,
 			);
@@ -415,6 +500,7 @@
 		};
 		81D1B6231EF06DC70062D6AE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EECAC37D0B82D7ABB65180B /* Pods-ExpandableTreeView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3K6JQ87GJE;
@@ -422,12 +508,15 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pratyushpratik.ExpandableTreeView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = ExpandableTreeView/Bridge.h;
 				SWIFT_VERSION = 3.0;
+				USER_HEADER_SEARCH_PATHS = "Pods/**";
 			};
 			name = Debug;
 		};
 		81D1B6241EF06DC70062D6AE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DEA0A5F1413890D0E0E4DDA /* Pods-ExpandableTreeView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3K6JQ87GJE;
@@ -435,7 +524,9 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pratyushpratik.ExpandableTreeView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = ExpandableTreeView/Bridge.h;
 				SWIFT_VERSION = 3.0;
+				USER_HEADER_SEARCH_PATHS = "Pods/**";
 			};
 			name = Release;
 		};
@@ -516,6 +607,7 @@
 				81D1B6241EF06DC70062D6AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		81D1B6251EF06DC70062D6AE /* Build configuration list for PBXNativeTarget "ExpandableTreeViewTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +616,7 @@
 				81D1B6271EF06DC70062D6AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		81D1B6281EF06DC70062D6AE /* Build configuration list for PBXNativeTarget "ExpandableTreeViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +625,7 @@
 				81D1B62A1EF06DC70062D6AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

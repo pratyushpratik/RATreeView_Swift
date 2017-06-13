@@ -8,18 +8,34 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+class ViewController: UIViewController, RATreeViewDataSource, RATreeViewDelegate{
+    private var treeView: RATreeView!
+    private let xibName = "TableViewCell"
+    
+    override dynamic func viewDidLoad() {
+        treeView = RATreeView(frame: self.view.bounds)
+        treeView.delegate = self
+        treeView.dataSource = self
+        
+        treeView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
+        view.addSubview(treeView)
+        treeView.reloadData()
+        
+        treeView.register( UINib(nibName: xibName, bundle: nil), forCellReuseIdentifier: xibName)
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    func treeView(_ treeView: RATreeView, numberOfChildrenOfItem item: Any?) -> Int {
+        return 3
     }
-
-
+    
+    func treeView(_ treeView: RATreeView, cellForItem item: Any?) -> UITableViewCell {
+        let cell = treeView.dequeueReusableCell(withIdentifier: xibName) as? TableViewCell
+        
+        cell?.lbl.text = "hey"
+        return cell!
+    }
+    
+    func treeView(_ treeView: RATreeView, child index: Int, ofItem item: Any?) -> Any {
+        return index
+    }
 }
-

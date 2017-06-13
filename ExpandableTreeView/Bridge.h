@@ -9,5 +9,6 @@
 #ifndef Bridge_h
 #define Bridge_h
 
+#import "RATreeView.h"
 
 #endif /* Bridge_h */
