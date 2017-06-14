@@ -2,4 +2,86 @@
 <Bucket
    type = "0"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ExpandableTreeView/ViewController.swift"
+            timestampString = "519112824.869731"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "75"
+            endingLineNumber = "75"
+            landmarkName = "treeView(_:numberOfChildrenOfItem:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ExpandableTreeView/ViewController.swift"
+            timestampString = "519112539.129834"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "78"
+            endingLineNumber = "78"
+            landmarkName = "treeView(_:numberOfChildrenOfItem:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ExpandableTreeView/ViewController.swift"
+            timestampString = "519112826.014418"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "76"
+            endingLineNumber = "76"
+            landmarkName = "treeView(_:numberOfChildrenOfItem:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ExpandableTreeView.ViewController.treeView (__ObjC.RATreeView, numberOfChildrenOfItem : Swift.Optional&lt;Any&gt;) -&gt; Swift.Int"
+                  moduleName = "ExpandableTreeView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sierra4/Desktop/RATreeView_Swift/ExpandableTreeView/ViewController.swift"
+                  timestampString = "519115055.443337"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "76"
+                  endingLineNumber = "76"
+                  offsetFromSymbolStart = "738">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ExpandableTreeView.ViewController.(treeView (__ObjC.RATreeView, numberOfChildrenOfItem : Swift.Optional&lt;Any&gt;) -&gt; Swift.Int).(implicit closure #1)"
+                  moduleName = "ExpandableTreeView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sierra4/Desktop/RATreeView_Swift/ExpandableTreeView/ViewController.swift"
+                  timestampString = "519115055.445139"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "76"
+                  endingLineNumber = "76"
+                  offsetFromSymbolStart = "10">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>
